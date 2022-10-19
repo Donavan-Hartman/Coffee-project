@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Coffee Junkie</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Cabin:ital@1&family=Dosis:wght@400;700&family=Karla:wght@400;500&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER/nav  -->
+    <header>
+      <div class="nav-bar">
+        <img
+          src="./images/teggy-logo..png"
+          alt="logo picture"
+          class="logo-img"
+        />
+        <h1 class="name">Teggy Bear Coffee</h1>
+        <div class="menu">
+          <a href="index.html" class="is-active">Home</a>
+          <a href="about.html">About</a>
+          <a href="numbers.html">Numbers</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="hamburger is-active" onclick="toggleNav()">
+          <div class="bar"></div>
+        </button>
+      </div>
+    </header>
+
+    <!-- mobile nav/menu -->
+    <nav class="mobile-nav">
+      <a href="index.html" class="is-active">Home</a>
+      <a href="about.html">About</a>
+      <a href="numbers.html">Numbers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- main content -->
+    <section>
+      <div class="content">
+        <h1>Featured Products</h1>
+
+        <!-- House Blend -->
+        <h2>House Blend Coffee</h2>
+        <img src="./images/houseblend1.jpeg" alt="house blend" />
+        <p>
+          Our House Blend captures the distinct character of three
+          coffee-growing regions to bring you a perfectly balanced cup. We roast
+          this blend to a medium-dark color, developing a rich flavor with notes
+          of milk chocolate and berry. Enjoy the smooth, clean finish of this
+          house favorite.
+        </p>
+        <h3>
+          <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"
+            >Details</a
+          >
+        </h3>
+
+        <!-- french Blend -->
+        <h2>French Roast Coffee</h2>
+        <img src="./images/frenchroast1.jpeg" alt="french roast" />
+        <p>
+          French roast coffee beans are roast level roasted for longer than
+          typical dark roasts. This roasting process produces a darker color and
+          richer flavor for a coffee bean. Consumers who enjoy a robust, bold
+          taste in their coffee frequently choose French roasted coffee.
+        </p>
+        <h3>
+          <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"
+            >Details</a
+          >
+        </h3>
+
+        <!-- Columbian Blend -->
+        <h2>Columbian Coffee</h2>
+        <img src="./images/columbian1.jpeg" alt="columbian blend" />
+        <p>
+          Colombia grows mostly Arabica beans, giving its beans the light and
+          flowery taste that many coffee lovers crave. Arabica beans make a
+          delightful light roast, as the beans are already extremely flavorful
+          and don't need a heavy roasting process to bring out the taste.
+        </p>
+        <h3>
+          <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank"
+            >Details</a
+          >
+        </h3>
+
+        <!-- back to top -->
+        <div class="back-to-top">
+          <h3>
+            <a href="#">Back to top <i class="fa-solid fa-arrow-up"></i> </a>
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p>Teggy Bear Coffee Co &trade;</p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
