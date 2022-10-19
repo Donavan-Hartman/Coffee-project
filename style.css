@@ -199,7 +199,7 @@ a:hover {
 .about-content > p,
 h3 {
   margin-top: 25px;
-  padding: 0px 18px 0px 18px;
+  padding: 0px 18px 8px 18px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -213,12 +213,6 @@ h1 {
   display: grid;
   justify-content: center;
   color: white;
-}
-
-.about-container > .back-to-top {
-  position: absolute;
-  bottom: 0.3rem;
-  justify-content: flex-start;
 }
 
 /* numbers page content */
@@ -253,12 +247,6 @@ table {
   margin-right: auto;
   max-width: 700px;
   justify-content: center;
-}
-
-.numbers > .back-to-top {
-  position: absolute;
-  bottom: 0.3rem;
-  justify-content: flex-start;
 }
 
 /* contact page content*/
