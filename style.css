@@ -215,12 +215,6 @@ h1 {
   color: white;
 }
 
-.about-container > .back-to-top {
-  position: absolute;
-  bottom: 0.3rem;
-  justify-content: flex-start;
-}
-
 /* numbers page content */
 .numbers {
   background-image: url(./images/background.jpeg);
@@ -253,12 +247,6 @@ table {
   margin-right: auto;
   max-width: 700px;
   justify-content: center;
-}
-
-.numbers > .back-to-top {
-  position: absolute;
-  bottom: 0.3rem;
-  justify-content: flex-start;
 }
 
 /* contact page content*/
